@@ -1,0 +1,10 @@
+@echo off
+echo Hej det här är Phil!
+pause
+set namn=
+echo Vad heter du? 
+set /p namn= 
+echo Hej %namn% > dator_och_namn.txt
+set /p datornamn= Ditt datorns namn är:
+echo Ditt dator heter %datornamn% >> dator_och_namn.txt
+pause
